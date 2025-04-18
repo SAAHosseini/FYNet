@@ -1,0 +1,77 @@
+python detect.py --weights best_unbalance_data_7epochs_yolovs_3008.pt --source D:/Films/4K-IPHONE12PRO/4K_MP4/IMG_5248.mp4
+
+python detect.py --weights best_unbalance_data_14epochs_yolov5n_0209.pt --source D:/Films/4K-IPHONE12PRO/4K_MP4/IMG_5248.mp4 --img 3840
+
+python detect.py --weights best_yolov5n_30epochs_0409.pt --source D:/Films/4K-IPHONE12PRO/4K_MP4/IMG_5248.mp4 --img 3840
+
+python detect.py --weights best_yolov5n_30epochs_0409.pt --source D:/Films/NightHighway6lane/00078.mp4 --img 1920
+
+python detect.py --weights best_yolov5n_30epochs_0409.pt --source D:/pythonProject/yolov5-8th/runs/detect/Night --img 1920
+python detect.py --weights best_yolov5n_15epochs_img_1280_15h_0.483mAP_0709.pt --source D:/pythonProject/yolov5-8th/runs/detect/Night --img 1280
+python detect.py --weights best_yolov5n_30epochs_0409.pt --source D:/pythonProject/yolov5-8th/runs/detect/Night --img 1280 --device 0  --conf-thres 0.15
+
+python detect.py --weights best_yolov5n_15epochs_img_1280_15h_0.483mAP_0709.pt --source D:/DatasetVehicle/49_H_C_D_FR_6m_6Line --img 1280 --save-txt store_true --device cpu
+
+python detect.py --weights best_yolov5n_15epochs_img_1280_15h_0.483mAP_0709.pt --source D:/pythonProject/yolov5-8th/runs/detect/night --img 1280 --device 0
+
+
+
+
+python detect.py --weights best_yolov5l_12epochs_0609.pt --device 0 --source D:/Films/4K-IPHONE12PRO/4K_MP4/IMG_5248.mp4 --img 3840
+
+python detect.py --weights best_yolov5n_15epochs_img_1280_15h_0.483mAP_0709.pt --device 0 --source C:/FILM/12_H_C_DN_F_6m_3Line/AVI/000000131780.avi --img 1920
+
+python detect.py --weights best_day_yolov5n6_36h_1280_mAP_0.7_16class.pt --device 0 --source D:/Phd/IMG_5248.mp4 --img 3840
+
+
+
+python detect.py --weights best_yolov5_5d_6.2GFLOPS_27M_15epochs_327Layer_mAP0.8.pt --device 0 --source D:/Phd/IMG_5248.mp4 --img 3840
+
+python detect.py --weights best_yolov5n_16class_214Layer_1.78M_4.3GFLOPS_15epoch_mAP0.76.pt --device 0 --source D:/Phd/IMG_5248.mp4 --img 3840
+
+python detect.py --weights best_yolov5pico_5d_0.6gflops_15epochs_1.7M_327Layer_mAP0.618.pt --device 0 --source D:/Phd/IMG_5248.mp4 --img 3840
+
+python detect.py --weights best_yolov5pico_5d_0.6gflops_15epochs+15epochs_1.7M_327Layer_mAP0.694.pt --device 0 --source D:/Phd/IMG_5248.mp4 --img 3840
+
+python detect.py --weights best_yolov5Pico_5d_v2_15epochs_6.8M_2GFLOPS_240Layer_mAP0.717.pt --device 0 --source D:/Phd/IMG_5248.mp4 --img 3840
+
+
+
+python detect.py --weights best_day_yolov5n6_36h_1280_mAP_0.7_16class.pt --source D:/phd/IMG_4K_TEST --img 3840 --device 0
+python detect.py --weights best_yolov5_5d_6.2GFLOPS_27M_15epochs_327Layer_mAP0.8.pt --source D:/phd/IMG_4K_TEST --img 3840 --device 0
+python detect.py --weights best_yolov5n_16class_214Layer_1.78M_4.3GFLOPS_15epoch_mAP0.76.pt --source D:/phd/IMG_4K_TEST --img 3840 --device 0
+python detect.py --weights best_yolov5pico_5d_0.6gflops_15epochs_1.7M_327Layer_mAP0.618.pt --source D:/phd/IMG_4K_TEST --img 3840 --device 0
+python detect.py --weights best_yolov5pico_5d_0.6gflops_15epochs+15epochs_1.7M_327Layer_mAP0.694.pt --source D:/phd/IMG_4K_TEST --img 3840 --device 0
+python detect.py --weights best_yolov5Pico_5d_v2_15epochs_6.8M_2GFLOPS_240Layer_mAP0.717.pt --source D:/phd/IMG_4K_TEST --img 3840 --device 0
+
+python detect.py --weights best_yolov5pico_5d_0.6gflops_mAP0.906_150epochs.pt --source D:/phd/IMG_4K_TEST --img 3840 --device 0
+python detect.py --weights best_yolov5pico_5d_0.6gflops_mAP0.906_150epochs.pt --source D:/phd/IMG_4K_TEST --img 3840 --device cpu
+
+
+python detect.py --weights best_yolov5pico_5d_0.6gflops_mAP0.906_150epochs.pt --device 0 --source D:/Phd/IMG_5248.mp4 --img 3840
+
+
+python detect.py --weights best_exp66_yolov5pico_5d_v5_150epochs_93.3_1GFLOPS.pt --device 0 --source D:/Phd/IMG_5248.mp4 --img 3840
+
+
+python detect.py --weights best_yolov5_pico_5d_v3_150epochs_93.5mAP_0.6GFLOPS.pt --device 0 --source D:/Phd/IMG_5248.mp4 --img 3840
+
+python detect.py --weights best_yolov5_pico_5d_v3_150epochs_93.5mAP_0.6GFLOPS.pt --source D:/phd/IMG_4K_TEST --img 3840 --device 0
+python detect.py --weights best_exp66_yolov5pico_5d_v5_150epochs_93.3_1GFLOPS.pt --source D:/phd/IMG_4K_TEST --img 3840 --device 0
+
+
+python detect.py --weights best_yolov5pico-5d-v4-addsum-93.3mAP-0.6GFLOPS.pt --source D:/phd/IMG_4K_TEST --img 3840 --device 0
+python detect.py --weights best_exp88_yolov5pico_5d_v6_mAP62.9_0.6GFLOPS_18epochs_17.9ms.pt --source D:/phd/IMG_4K_TEST --img 3840 --device 0
+python detect.py --weights best_yolov5pico-5d-v4-addsum-93.3mAP-0.6GFLOPS.pt --source D:/phd/IMG_4K_TEST --img 3840 --device 0
+
+python detect.py --weights best_yolov5_pico_5d_v3_150epochs_93.5mAP_0.6GFLOPS.pt --source D:/phd/IMG_4K_TEST --img 3840 --device 0
+
+python detect.py --weights best_exp2_yolov5pico_5d_v7_0.6GFLOPS_1.8M_25epochs_mAP0.64.pt --source D:/phd/IMG_4K_TEST --img 3840 --device 0
+
+best_exp72_18epochs_yolov5p6_mAP64.3_1.2GFLOPS_20.5ms
+
+python detect.py --weights best_exp72_18epochs_yolov5p6_mAP64.3_1.2GFLOPS_20.5ms.pt --source D:/phd/IMG_4K_TEST --img 3840 --device 0
+
+
+
+python detect.py --weights best_exp13_yolov5p6_v8_18epochs_mAP64.9_1.3GFLOPS.pt --source D:/phd/IMG_4K_TEST --img 3840 --device 0
